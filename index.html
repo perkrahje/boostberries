@@ -4,14 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BOOSTBERRIES</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+  * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: 'Inter', sans-serif;
-    background: #0d0d0d;
-    color: #f0ece4;
+    background: #fff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,41 +18,26 @@
     text-align: center;
     padding: 2rem;
   }
-
-  .wordmark {
-    font-size: clamp(2.2rem, 8vw, 5.5rem);
-    font-weight: 200;
-    letter-spacing: 0.22em;
-    color: #f0ece4;
+  h1 {
+    font-size: clamp(1.8rem, 7vw, 3.4rem);
+    font-weight: 500;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
-    margin-bottom: 3rem;
-    line-height: 1;
+    color: #111;
+    margin-bottom: 1.2rem;
   }
-
-  .dot {
-    display: block;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #c8445a;
-    margin: 0 auto 3rem;
-  }
-
-  .email {
-    font-size: clamp(0.7rem, 2vw, 0.85rem);
+  a {
+    font-size: 0.85rem;
     font-weight: 300;
-    letter-spacing: 0.18em;
     color: #888;
     text-decoration: none;
-    text-transform: lowercase;
-    transition: color 0.3s;
+    letter-spacing: 0.03em;
   }
-  .email:hover { color: #f0ece4; }
+  a:hover { color: #111; }
 </style>
 </head>
 <body>
-  <h1 class="wordmark">Boostberries</h1>
-  <span class="dot"></span>
-  <a href="mailto:info@boostberries.com" class="email">info@boostberries.com</a>
+  <h1>Boostberries</h1>
+  <a href="mailto:info@boostberries.com">info@boostberries.com</a>
 </body>
 </html>
